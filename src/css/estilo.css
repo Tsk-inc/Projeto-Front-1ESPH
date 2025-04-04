@@ -13,7 +13,7 @@ body{
     padding: 20px; /*espaçamento interno em todos os lados*/
 }
 header{
-    background: yellow;
+    background: rgb(133, 79, 4);
     text-align: center;
     padding: 20px;
 }
@@ -21,7 +21,7 @@ header{
         width:100%;
 }
 #conteudo{
-    background:  purple;
+    background: bisque;
     color: white;
     text-align: center;
     padding: 100px;
@@ -32,7 +32,7 @@ header{
     flex-direction: column;
 }
 aside{
-    background: lightcoral;
+    background: lightyellow;
     padding: 20px;
     flex: 1;
 }
