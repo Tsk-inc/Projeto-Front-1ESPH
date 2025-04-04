@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: transparent;
+}
+#container{
+    display: flex;/*Deixa  página flexivel*/
+    flex-direction: column;/* ajusta o flex em colunas*/
+    gap: 10px;/* espaçamento entre ELEMENTOS*/
+    padding: 20px; /*espaçamento interno em todos os lados*/
+}
+header{
+    background: yellow;
+    text-align: center;
+    padding: 20px;
+}
+#conteudoAside{
+        width:100%;
+}
+#conteudo{
+    background:  purple;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    flex:2;
+}
+#conteudo article{
+    display: flex;
+    flex-direction: column;
+}
+aside{
+    background: lightcoral;
+    padding: 20px;
+    flex: 1;
+}
+footer{
+    background: goldenrod;
+    padding:40px;
+}
+/*responsividade*/
+@media(min-width:700px){
+    #container{
+        flex-direction: column;
+    }
+    #conteudoAside{
+        display:flex;
+        flex-grow: 1;
+    }
+    #conteudo{
+        flex:2;
+    }
+    aside{
+        flex:1;
+    }
+}
